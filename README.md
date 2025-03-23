@@ -1,4 +1,4 @@
-![Status](https://github.com/w-oby/DevOpsOpdracht7/actions/workflows/ci.yml/badge.svg)
+[![System Check](https://github.com/w-oby/DevOpsOpdracht7/actions/workflows/ci.yml/badge.svg)](https://github.com/w-oby/DevOpsOpdracht7/actions/workflows/ci.yml)
 
 # DevOps Opdracht 7
 
