@@ -1,0 +1,23 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "DevOps Opdracht 7",
+  "main": "systeminfo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w-oby/DevOpsOpdracht7.git"
+  },
+  "keywords": [
+    "DevOps",
+    "CI/CD"
+  ],
+  "author": "w-oby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w-oby/DevOpsOpdracht7/issues"
+  },
+  "homepage": "https://github.com/w-oby/DevOpsOpdracht7#readme"
+}
