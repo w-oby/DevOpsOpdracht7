@@ -5,17 +5,18 @@ run-name: ${{ github.actor }} is performing a system check!
 on: [push]
 
 jobs:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: checking code
-        uses: actions/checkout@v4
-
-      - name: NodeJS
-        uses: actions/setup-node@v4
-        with:
-          node-version: '14'
-
-      - run: npm install
-
-      - run: node tests/systeminfo.js
+    systemcheck:
+        runs-on: ubuntu-latest
+    
+        steps:
+          - name: checking code
+            uses: actions/checkout@v4
+    
+          - name: NodeJS
+            uses: actions/setup-node@v4
+            with:
+              node-version: '14'
+    
+          - run: npm install
+    
+          - run: node tests/systeminfo.js
